@@ -1,11 +1,12 @@
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Homepage from './Homepage';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Products from './Products';
 import Account from './Account';
 import Cart from './Cart';
 import ProductDetail from './ProductDetail';
+
 function App() {
 
   return (
@@ -13,23 +14,13 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
         <div className="content">
-          <Switch>
-            <Route exact path="/">
-              <Homepage></Homepage>
-            </Route>
-            <Route exact path="/Products">
-              <Products></Products>
-            </Route>
-            <Route exact path="/Account">
-              <Account></Account>
-            </Route>
-            <Route exact path="/Cart">
-              <Cart></Cart>
-            </Route>
-            <Route exact path="/ProductDetail">
-              <ProductDetail></ProductDetail>
-            </Route>
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Homepage/>}></Route>
+            <Route exact path="/Products" element={<Products/>}></Route>
+            <Route exact path="/Account" element={<Account/>}></Route>
+            <Route exact path="/Cart" element={<Cart/>}></Route>
+            <Route exact path="/ProductDetail" element={<ProductDetail/>}></Route>
+          </Routes>
         </div>
         <Footer></Footer>
       </div>
