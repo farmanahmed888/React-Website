@@ -1,8 +1,6 @@
-import { useLocation } from "react-router-dom";
+
 const Cart = () => {
-    const location=useLocation();
-    const shopped=location.state;
-    console.log({shopped});
+    
     return (
         
         <div className="Cart">
@@ -17,10 +15,10 @@ const Cart = () => {
                         <tr>
                             <td>
                                 <div className="cart-info">
-                                    <img src={shopped.Image} alt="buy-1" />
+                                    {/*<img src={shopped.Image} alt="buy-1" />*/}
                                     <div>
-                                        <p>{shopped.name}</p>
-                                        <small>Price: ₹{shopped.cost}</small>
+                                        <p>abc</p>
+                                        <small>Price: ₹abc</small>
                                         <a href="/">Remove</a>
                                     </div>
                                 </div>
@@ -28,7 +26,7 @@ const Cart = () => {
                             <td>
                                 <input type="number" defaultValue={1} />
                             </td>
-                            <td>₹{shopped.cost}</td>
+                            <td>₹abc</td>
                         </tr>
                         
                         

@@ -17,7 +17,7 @@ const ProductDetail = () => {
                     <h4>Price is : ₹{data.cost}</h4>
                     {/*no of products*/}
                     <input type="number" defaultValue={1} />
-                    <Link to="/Cart" className="btn"> 
+                    <Link to="/Cart" className="btn" state ={data}> 
                         Add To Cart
                     </Link>
                     {/*add to cart button*/}
