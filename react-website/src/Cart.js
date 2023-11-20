@@ -1,35 +1,43 @@
-
+import { useDispatch, useSelector } from "react-redux";
+import { removeFromCart } from "./redux/cartSlice";
 const Cart = () => {
-    
+    const cartitems = useSelector(state => state.cart.cart)
+    const dispatch = useDispatch()
+    console.log(cartitems);
     return (
-        
+
         <div className="Cart">
             <div className="small container cart-page">
                 <table>
                     <tbody>
                         <tr>
                             <th>Product</th>
-                            <th>Quantity</th>
                             <th>Subtotal</th>
                         </tr>
                         <tr>
                             <td>
                                 <div className="cart-info">
-                                    {/*<img src={shopped.Image} alt="buy-1" />*/}
-                                    <div>
-                                        <p>abc</p>
-                                        <small>Price: ₹abc</small>
-                                        <a href="/">Remove</a>
-                                    </div>
+                                    {
+                                        cartitems.map(item => {
+                                            return (
+                                                <div className="cart-entries">
+                                                    <p>{item.name}</p>
+                                                    <h4>Price: ₹{item.cost}</h4>
+                                                    <button onClick={()=>dispatch(removeFromCart({id: item.id}))}>Remove</button>
+                                                </div>
+                                            )
+                                        })
+                                    }
+
                                 </div>
                             </td>
                             <td>
-                                <input type="number" defaultValue={1} />
+                                
                             </td>
                             <td>₹abc</td>
                         </tr>
-                        
-                        
+
+
                     </tbody>
                 </table>
                 <div className="total-price">

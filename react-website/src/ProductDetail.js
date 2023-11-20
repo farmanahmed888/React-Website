@@ -1,8 +1,10 @@
-import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "./redux/cartSlice";
 const ProductDetail = () => {
     const location = useLocation();
     const data = location.state;
+    const dispatch=useDispatch();
     return (
         <div className="small-container single-product">
             <div className="row">
@@ -17,9 +19,9 @@ const ProductDetail = () => {
                     <h4>Price is : ₹{data.cost}</h4>
                     {/*no of products*/}
                     <input type="number" defaultValue={1} />
-                    <Link to="/Cart" className="btn" state ={data}> 
+                    <button className="btn" onClick={()=>{dispatch(addToCart(data))}}> 
                         Add To Cart
-                    </Link>
+                    </button>
                     {/*add to cart button*/}
                     <h3>
                         Product Details <i className="fa fa-indent" aria-hidden="true" />

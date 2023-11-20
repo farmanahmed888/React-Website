@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
-
+import { useSelector } from "react-redux/es/hooks/useSelector";
 const Navbar = () => {
   function toggleMenu() {
     var MenuItems = document.getElementById("MenuItems");
@@ -15,6 +15,8 @@ const Navbar = () => {
   useEffect(() => {
     toggleMenu();
   }, []);
+  const cartItems = useSelector(state => state.cart.cart)
+  console.log(cartItems)
   return (
     <div className="navbar">
       <div className="logo">
@@ -38,6 +40,7 @@ const Navbar = () => {
       </nav>
       <Link to="/Cart">
         <img src={require('./img/cart.png')} alt="cart" width="30px" height="30px" />
+        <small>{cartItems.length}</small>
       </Link>
     </div>
   );
