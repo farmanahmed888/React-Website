@@ -1,0 +1,124 @@
+{
+    "watches": [
+        {
+            "id": 1,
+            "featured": "true",
+            "name": "OPENWORKED TOURBILLON RED GOLD",
+            "cost": "24,80,000",
+            "Product_Details": "The new SMA05 v2 Calibre is part of the SMA proprietary movement collection and positions a strong element at 1:30: the flying tourbillon. Speake-Marin is the only watchmaker who positions its tourbillon there.",
+            "Image": "https://www.speake-marin.com/wp-content/uploads/2020/05/Mushroom_1100x880_Tourbillon-V2-38RG-01.png"
+        },
+        {
+            "id": 2,
+            "featured": "true",
+            "name": "CARL F. BUCHERER Manero Flyback",
+            "cost": "7,72,632",
+            "Product_Details": "The Carl F. Bucherer Manero collection is home to an elegant set of timepieces that takes its inspiration from the watches created by the brand during the 50s and 60s",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/c/a/carl-f--bucherer-manero-00-10919-08-53-21-large.jpg"
+        },
+        {
+            "id": 3,
+            "featured": "true",
+            "name": "Longines Dolcevita",
+            "cost": "1,39,000",
+            "Product_Details": "Initially, Longines launched the DolceVita range as a sub-collection of the famous collection, Elegance. The Longines DolceVita collection was introduced as a stand-alone collection in 1997 and since then has become famous for being an embodiment of style, perfection and novelty. The essence of the collection forms its roots in Italy La Dolce Vita when translated literally means “The Sweet Life”. It is reminiscent of the tranquil and leisurely Italian lifestyle, where people take the time to enjoy every aspect of living. The pace of life is harmonic without being dull and the days have ample hours for both work and play.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/l/o/longines-longines-dolcevita-l5-255-4-71-0-large.jpg"
+        },
+        {
+            "id": 4,
+            "featured": "true",
+            "name": "CZAPEK Quai Des Bergues Rainforest Green L",
+            "cost": "16,40,000",
+            "Product_Details": "The Czapek Quai Des Bergues collection was launched in 2011 with the revival of the brand. Since the launch of the collection, the Quai Des Bergues has enjoyed fame with many awards tagged to it. The collection is a homage to the place where Franciszek Czapek founded the watchmaking company in Geneva in 1845.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/c/z/czapek-quai-des-bergues-1022-large.jpg"
+        },
+        {
+            "id": 5,
+            "featured": "true",
+            "name": "product 5",
+            "cost": "50",
+            "Product_Details": "The Carl F. Bucherer Manero collection is home to an elegant set of timepieces that takes its inspiration from the watches created by the brand during the 50s and 60s",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/c/a/carl-f--bucherer-manero-00-10919-08-53-21-large.jpg"
+        },
+        {
+            "id": 6,
+            "featured": "false",
+            "name": "PERRELET Weekend Ice Blue",
+            "cost": " 1,36,000",
+            "Product_Details": "Since the re-establishment of the brand, Perrelet adopted a strategy of awareness while keeping the roots of traditional watchmaking firmly planted. To establish this idea, the brand launched a number of timepieces under the Perrelet Classics collection. The idea behind the collection was to sow the seeds of simplistic yet heritage-based designs into the collection. Today, the collection has various series of timepieces such as Diamond Flower, First Class, and Weekend.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/p/e/perrelet-classics-a1300-b-large.jpg"
+        },
+        {
+            "id": 7,
+            "featured": "false",
+            "name": "GERALD CHARLES Maestro 2.0 Ultra-Thin",
+            "cost": "40,50,000",
+            "Product_Details": "With numerous designs that reshaped the world of horology under his belt, Gerald Charles delivered his philosophy with finesse. After taking an independent path, Gerald Charles designed some of the most brilliant timepieces. One such set of timepieces is the Gerald Charles GC 2.0 Ultra-Thin collection.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/g/e/gerald-charles-gc-2-0-ultra-thin-gc2-0-rg-05-large.jpg"
+        },
+        {
+            "id": 8,
+            "featured": "false",
+            "name": "product 8",
+            "cost": "50",
+            "Product_Details": "The Carl F. Bucherer Manero collection is home to an elegant set of timepieces that takes its inspiration from the watches created by the brand during the 50s and 60s",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/c/a/carl-f--bucherer-manero-00-10919-08-53-21-large.jpg"
+        },
+        {
+            "id": 9,
+            "featured": "false",
+            "name": "LONGINES Heritage Classic",
+            "cost": "2,71,000",
+            "Product_Details": "The heritage that Longines carries boasts centuries-long experience it has garnered with attention to detail and new inventions in the world of watchmaking. The Longines Heritage Classic collection is inspired by the watches created during the 1930s. These watches take their inspiration from the sector dials of the 30s.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/l/o/longines-heritage-classic-l1-650-4-52-2-large.jpg"
+        },
+        {
+            "id": 10,
+            "featured": "false",
+            "name": "BOVETVirtuoso VII",
+            "cost": " 1,18,00,000",
+            "Product_Details": "For centuries, Bovet is known for its intricate dial designs and detailing. The Bovet Fleurier collection depicts the historical techniques at their best. The roots of the Bovet Fleurier collection date back to the 1940s when chronographs were slowly taking the center stage in the watchmaking world.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/b/o/bovet-fleurier-acqpr037-large.jpg"
+        },
+        {
+            "id": 11,
+            "featured": "false",
+            "name": "NORQAI Freedom 60 Emerald Green",
+            "cost": "2,93,100",
+            "Product_Details": "The NORQAIN Freedom collection is a homage to the great outdoors. Highly inspired by the watches that were produced in the 60s, the Freedom collection is created for people with a penchant for exploring the unknown. Finding a balance between form and function, the NORQAIN Freedom collection is a timekeeper with vintage aesthetics and modern functionality.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/n/o/norqain-freedom-n2001sa-e20d-203s-large.jpg"
+        },
+        {
+            "id": 12,
+            "featured": "false",
+            "name": "JACOB & CO. Palatial Classic Manual Big Date",
+            "cost": "17,00,000",
+            "Product_Details": "In a bid to create more space, the Jacob & Co. Palatial collection creates an uncluttered persona on the dial. With basic timekeeping duties, the collection is inspired by the Art Deco movement from the 1920s. A perfect balance between individualism and classicism, the collection offers a deep dive into mechanical horology.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/j/a/jacob-co-palatial-pc400-10-aa-ad-a10aa-large.jpg"
+        },
+        {
+            "id": 13,
+            "featured": "false",
+            "name": "H. MOSER & CIE. Heritage Centre Seconds",
+            "cost": "16,00,000",
+            "Product_Details": "Bridging the gap between past and present, the H. Moser & Cie. brings the best of both worlds. Be it the aesthetics of the pocket watch era or the complications of the modern world, the H. Moser & Cie. Heritage collection builds upon the rich heritage of the brand. H. Moser & Cie. has its roots deep inside the Russian culture. Be it the last Czar or Lenin, the timepieces have adorned the political and cultural spectrum alike. With its Cyrillic-inspired Arabic numerals on the dial, the rich heritage is encapsulated in all its glory.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/h/-/h-moser-cie-pioneer-8200-1201-large_1_1.jpg"
+        },
+        {
+            "id": 14,
+            "featured": "false",
+            "name": "BREMONT Airco Mach 3",
+            "cost": "3,95,500",
+            "Product_Details": "The idea behind creating the Bremont Altitude collection was to commemorate the machines that enabled humans to explore the sky and beyond. Many watches inside the Altitude collection are named after famed aeroplanes such as the U-2. Commemorating their love for aviation, the Bremont Altitude collection depicts the lineage and tradition of the brand. Unlike many Pilot’s watches, the Altitude collection is not equipped with a rotating bezel but with a dial that reflects the finesse and Bremont’s love for aviation.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/b/r/bremont-airco-mach-3-airco-m3-bl-b-large.jpg"
+        },
+        {
+            "id": 15,
+            "featured": "false",
+            "name": "DOXA SUB 300T Professional",
+            "cost": "50",
+            "Product_Details": "After successfully launching the Doxa SUB 300 in 1960, Doxa decided to launch a better-equipped version of the SUB 300. In 1969, Doxa launched the SUB 300T Conquistador. The Conquistador was launched during the times when helium release valve and unidirectional rotating bezel were recently invented.",
+            "Image": "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/d/o/doxa-sub-300t-840-10-351-10-large.jpg"
+        }
+    ]
+}

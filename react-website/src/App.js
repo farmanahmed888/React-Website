@@ -18,8 +18,8 @@ function App() {
             <Route exact path="/" element={<Homepage/>}></Route>
             <Route exact path="/Products" element={<Products/>}></Route>
             <Route exact path="/Account" element={<Account/>}></Route>
-            <Route exact path="/Cart" element={<Cart/>}></Route>
-            <Route exact path="/ProductDetail" element={<ProductDetail/>}></Route>
+            <Route exact path="/Cart" state ={""} element={<Cart/>}></Route>
+            <Route exact path="/ProductDetail/:id" element={<ProductDetail/>}></Route>
           </Routes>
         </div>
         <Footer></Footer>

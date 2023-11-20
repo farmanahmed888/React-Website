@@ -1,6 +1,20 @@
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Navbar = () => {
+  function toggleMenu() {
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    if (MenuItems.style.maxHeight === "0px") {
+      MenuItems.style.maxHeight = "200px";
+    } else {
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+
+  useEffect(() => {
+    toggleMenu();
+  }, []);
   return (
     <div className="navbar">
       <div className="logo">
