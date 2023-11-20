@@ -40,7 +40,7 @@ const Navbar = () => {
       </nav>
       <Link to="/Cart">
         <img src={require('./img/cart.png')} alt="cart" width="30px" height="30px" />
-        <small>{cartItems.length}</small>
+        <h4>{cartItems.length}</h4>
       </Link>
     </div>
   );

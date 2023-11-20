@@ -344,6 +344,7 @@ select:focus{
 }
 .single-product .col-2 img{
     padding: 0;
+    scale: 0.7;
 }
 .single-product .col-2{
     padding: 20px;
@@ -565,7 +566,12 @@ form a{
 .card{
     display: flex;
     padding: 2em;
-    border: 1px solid #b5b5b5;
+    width: 350px;
+ height: auto;
+ border-radius: 50px;
+ background: #fff;
+ box-shadow: 20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
 }
 .grid {
   display: grid;
