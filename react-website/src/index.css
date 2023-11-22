@@ -403,6 +403,8 @@ table{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    border: #AA0000;
+    border-width: 500px;
 }
 th{
     text-align: left;
@@ -557,8 +559,6 @@ form a{
     /*for cart page*/
     .cart-info p{
         display:none;/*hide product name in smaller screen*/
-
-        
     }
 
 }
