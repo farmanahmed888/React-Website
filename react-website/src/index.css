@@ -393,6 +393,7 @@ input:focus{
 /*Cart Items*/
 .cart-page{
     margin: 80px auto;
+    
 }
 table{
     width: 100%;/*takes full width of the web page*/
@@ -578,4 +579,16 @@ form a{
   grid-template-columns: repeat(auto-fit,minmax(20px,350px));
   gap: 1.6rem;
   padding: 40px;
+}
+.cart-entries{
+    padding: 20px;
+}
+.cartButton{
+    background-color: #b80000;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    margin-left: 25px;
+    border-radius: 30px;
+    transition: background 0.5s;
 }

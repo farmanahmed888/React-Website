@@ -3,7 +3,8 @@ import { removeFromCart } from "./redux/cartSlice";
 const Cart = () => {
     const cartitems = useSelector(state => state.cart.cart)
     const dispatch = useDispatch()
-    console.log(cartitems);
+    const totalCost = cartitems.reduce((acc, item) => acc + item.cost, 0);
+    console.log(totalCost);
     return (
 
         <div className="Cart">
@@ -21,9 +22,8 @@ const Cart = () => {
                                         cartitems.map(item => {
                                             return (
                                                 <div className="cart-entries">
-                                                    <p>{item.name}</p>
-                                                    <h4>Price: ₹{item.cost}</h4>
-                                                    <button onClick={()=>dispatch(removeFromCart({id: item.id}))}>Remove</button>
+                                                    <h4>{item.name}</h4>
+                                                    <button onClick={()=>dispatch(removeFromCart({id: item.id}))} className="cartButton">Remove</button>
                                                 </div>
                                             )
                                         })
@@ -32,9 +32,19 @@ const Cart = () => {
                                 </div>
                             </td>
                             <td>
-                                
+                            <div className="cart-info">
+                                    {
+                                        cartitems.map(item => {
+                                            return (
+                                                <div className="cart-entries">
+                                                    <h4>Price: ₹{item.cost}</h4>
+                                                </div>
+                                            )
+                                        })
+                                    }
+
+                                </div>
                             </td>
-                            <td>₹abc</td>
                         </tr>
 
 
@@ -45,15 +55,15 @@ const Cart = () => {
                         <tbody>
                             <tr>
                                 <td>Subtotal</td>
-                                <td>$200.00</td>
+                                <td>₹{totalCost}</td>
                             </tr>
                             <tr>
                                 <td>Tax</td>
-                                <td>$30.00</td>
+                                <td>₹{0.3*totalCost}</td>
                             </tr>
                             <tr>
                                 <td>Total</td>
-                                <td>$230.00</td>
+                                <td>₹{totalCost*1.3}</td>
                             </tr>
                         </tbody>
                     </table>
