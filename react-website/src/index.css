@@ -592,3 +592,18 @@ form a{
     border-radius: 30px;
     transition: background 0.5s;
 }
+.review{
+    padding: 50px;
+    line-height: 50px;
+}
+.texti{
+    border-radius: 7px;
+    resize: none;
+}
+.Rating{
+    border-radius: 30px;
+    
+}
+.price-in-cart{
+    line-height: 100px;
+}

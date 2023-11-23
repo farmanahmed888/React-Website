@@ -23,7 +23,7 @@ const Cart = () => {
                                             return (
                                                 <div className="cart-entries">
                                                     <h4>{item.name}</h4>
-                                                    <button onClick={()=>dispatch(removeFromCart({id: item.id}))} className="cartButton">Remove</button>
+                                                    <button onClick={() => dispatch(removeFromCart({ id: item.id }))} className="cartButton">Remove</button>
                                                 </div>
                                             )
                                         })
@@ -31,8 +31,8 @@ const Cart = () => {
 
                                 </div>
                             </td>
-                            <td>
-                            <div className="cart-info">
+                            <td className="price-in-cart">
+                                <div className="cart-info">
                                     {
                                         cartitems.map(item => {
                                             return (
@@ -59,11 +59,11 @@ const Cart = () => {
                             </tr>
                             <tr>
                                 <td>Tax</td>
-                                <td>₹{0.3*totalCost}</td>
+                                <td>₹{0.3 * totalCost}</td>
                             </tr>
                             <tr>
                                 <td>Total</td>
-                                <td>₹{totalCost*1.3}</td>
+                                <td>₹{totalCost * 1.3}</td>
                             </tr>
                         </tbody>
                     </table>

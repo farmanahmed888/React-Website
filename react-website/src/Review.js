@@ -28,7 +28,7 @@ const Review = () => {
         return totalRating / reviews.length;
     }
     return (
-        <div>
+        <div className='review'>
             <h1>Product Reviews</h1>
             {/* Average Rating */}
             <div>
@@ -51,16 +51,17 @@ const Review = () => {
             <textarea
                 rows="4"
                 cols="50"
-                placeholder="Write your review..."
+                placeholder="       Write your review..."
                 value={newReview}
                 onChange={(e) => setNewReview(e.target.value)}
+                className='texti'
             ></textarea>
             <br />
 
             {/* Rating input */}
             <div>
                 <label>Rating:</label>
-                <select value={newRating} onChange={(e) => setNewRating(Number(e.target.value))}>
+                <select value={newRating} onChange={(e) => setNewRating(Number(e.target.value))} className='Rating'>
                     <option value={0}>Select a rating</option>
                     <option value={1}>1 star</option>
                     <option value={2}>2 stars</option>
@@ -71,7 +72,7 @@ const Review = () => {
             </div>
             <br />
 
-            <button onClick={handleReviewSubmit}>Submit Review</button>
+            <button onClick={handleReviewSubmit} className='cartButton'>Submit Review</button>
         </div>
     );
 }

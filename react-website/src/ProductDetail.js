@@ -19,7 +19,6 @@ const ProductDetail = () => {
                     <h1>{data.name}</h1>
                     <h4>Price is : ₹{data.cost}</h4>
                     {/*no of products*/}
-                    <input type="number" defaultValue={1} />
                     <button className="btn" onClick={()=>{dispatch(addToCart(data))}}> 
                         Add To Cart
                     </button>
