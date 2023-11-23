@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addToCart } from "./redux/cartSlice";
+import Review from "./Review";
 const ProductDetail = () => {
     const location = useLocation();
     const data = location.state;
@@ -30,6 +31,7 @@ const ProductDetail = () => {
                     <p>{data.Product_Details}</p>
                 </div>
             </div>
+            <Review></Review>
         </div>
 
     );
